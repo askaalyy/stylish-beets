@@ -6,12 +6,20 @@ html {
   box-sizing: inherit;
 }
 
-h1 {
-  font-family: 'PT Sans', sans-serif;
+/*font-family: "PT Sans", sans-serif;
+font-family: "PT Serif", serif;*/
+
+
+h1, h2 {
+  font-family: "PT Sans", sans-serif;
   color: #8f2440;
 }
 
-nav li {
-  font-family: 'PT Sans', sans-serif;
+nav ol {
+  font-family: "PT Sans", sans-serif;
   color: #8f2440;
+}
+
+body {
+  background-color: #c9b5ab;
 }
