@@ -12,6 +12,7 @@ html {
 font-family: "PT Serif", serif;*/
 
 h1, h2 {
+  text-decoration: none;
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
   color: #3f1622;
@@ -47,4 +48,9 @@ main p {
 main p:first-child {
   font-family: "PT Serif", serif;
   font-weight: normal;
+}
+
+main i {
+  font-family: "PT Serif", serif;
+  font-style: italic;
 }
