@@ -54,3 +54,25 @@ main i {
   font-family: "PT Serif", serif;
   font-style: italic;
 }
+
+blockquote p {
+  font-family: "PT Serif", serif;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+blockquote footer {
+  font-family: "PT Serif", serif;
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
+p {
+  font-family: "PT Serif", serif;
+  font-style: italic;
+}
+
+ dl dt {
+   font-family: "PT Serif", serif;
+   font-weight: bold;
+ }
