@@ -1,94 +1,70 @@
 html {
   box-sizing: border-box;
-  font-family: "PT Sans", sans-serif;
-  font-family: "PT Serif", serif;
+  background-color: #c9b5ab;
+  line-height: 1.5rem;
+  font-weight: normal;
+  text-decoration: none;
+  list-style-type: armenian;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-/*font-family: "PT Sans", sans-serif;
-font-family: "PT Serif", serif;*/
-
 h1, h2 {
-  text-decoration: none;
-  font-family: "PT Sans", sans-serif;
-  font-weight: bold;
   color: #3f1622;
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.5rem;
 }
 
-nav ol {
-  list-style-type: none;
-  font-family: "PT Sans", sans-serif;
+nav {
   color: #8f2440;
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.125rem;
+  font-weight: bold;
+  list-style-type: none;
 }
 
-ol a:hover {
-  color: #3f1622;
+nav :hover {
+  color: #222;
 }
 
-body {
-  background-color: #c9b5ab;
-  line-height: 1.5;
+a {
+  color: #8f2440;
+  text-decoration: none;
 }
 
-
-img {
-  width: 100%;
-  margin: 0;
-  padding: 0 40px;
+a:hover {
+  background-color: #222;
+  text-decoration: none;
 }
 
-figure {
-  margin: 0;
-  padding: 0;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-figcaption {
+main .intro {
   font-family: "PT Serif", serif;
   font-size: .8rem;
-  color: #222;
   font-style: italic;
   text-align: center;
 }
 
-main p {
-  font-family: "PT Serif", serif;
-  font-weight: bold;
-  color: #222;
+img {
+  background-color: #fff;
+  width: 100%;
 }
 
-main p:first-child {
-  font-family: "PT Serif", serif;
-  font-weight: normal;
-}
-
-main i {
-  font-family: "PT Serif", serif;
-  font-style: italic;
-}
-
-blockquote p {
+main .beets {
   font-family: "PT Serif", serif;
   font-style: italic;
   font-size: 1.5rem;
 }
 
-blockquote footer {
-  font-family: "PT Serif", serif;
-  font-style: italic;
-  font-size: 0.8rem;
+main .roots {
+  font-weight: bold;
+  font-size: 1.125rem;
 }
 
-p {
-  font-family: "PT Serif", serif;
-  font-style: italic;
-}
-
-dl dt {
-  font-family: "PT Serif", serif;
+main .subjets {
   font-weight: bold;
 }
+
+/* font-family: 'PT Sans', sans-serif;
+font-family: 'PT Serif', serif; */
