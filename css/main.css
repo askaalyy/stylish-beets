@@ -1,42 +1,17 @@
 html {
   box-sizing: border-box;
   background-color: #c9b5ab;
-  line-height: 1.5rem;
-  font-weight: normal;
-  text-decoration: none;
-  list-style-type: armenian;
+  line-height: 1.5;
+  font-family: "PT Sans", serif;
+  color: #222;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-h1,
-h2 {
-  color: #3f1622;
-  font-family: "PT Sans", sans-serif;
-  font-size: 1.5rem;
-}
-
-h1 {
-  font-size: 1.5rem;
-}
-header ol {
-  list-style-type: none;
-}
-
-nav {
-  color: #8f2440;
-  font-family: "PT Sans", sans-serif;
-  font-size: 1.125rem;
-  font-weight: bold;
-  list-style-type: none;
-}
-
-nav a :hover {
-  color: #222;
-  text-decoration: none;
-  text-decoration: underline;
+img {
+  width: 100%;
 }
 
 a {
@@ -45,35 +20,60 @@ a {
 }
 
 a:hover {
-  background-color: #222;
+  color: #341622;
   text-decoration: none;
 }
 
-main .intro {
-  font-family: "PT Serif", serif;
-  font-size: .8rem;
-  font-style: italic;
-  text-align: center;
+h1,
+h2 {
+  color: #3f1622;
+  font-family: "PT Sans", sans-serif;
 }
 
-img {
-  background-color: #fff;
-  width: 100%;
-}
-
-main .beets {
-  font-family: "PT Serif", serif;
-  font-style: italic;
+h1 {
   font-size: 1.5rem;
 }
 
-main .roots {
+nav {
+  font-size: 1.125rem;
+  font-weight: bold;
+  font-family: "PT Sans", sans-serif;
+}
+
+nav a :hover {
+  color: #222;
+  text-decoration: none;
+  text-decoration: underline;
+}
+
+nav ol {
+  list-style-type: none;
+}
+
+figure {
+  text-align: center;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+main figure + p {
   font-weight: bold;
   font-size: 1.125rem;
 }
 
-main .subjects {
-  font-weight: bold;
+blockquote p {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+blockquote cite {
+  font-size: .8rem;
+}
+
+blockquote strong {
+  font-weight: normal;
 }
 
 /* font-family: 'PT Sans', sans-serif;
