@@ -11,10 +11,18 @@ html {
   box-sizing: inherit;
 }
 
-h1, h2 {
+h1,
+h2 {
   color: #3f1622;
   font-family: "PT Sans", sans-serif;
   font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+header ol {
+  list-style-type: none;
 }
 
 nav {
@@ -25,8 +33,10 @@ nav {
   list-style-type: none;
 }
 
-nav :hover {
+nav a :hover {
   color: #222;
+  text-decoration: none;
+  text-decoration: underline;
 }
 
 a {
@@ -62,7 +72,7 @@ main .roots {
   font-size: 1.125rem;
 }
 
-main .subjets {
+main .subjects {
   font-weight: bold;
 }
 
